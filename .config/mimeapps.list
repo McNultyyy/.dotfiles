@@ -1,0 +1,17 @@
+[Added Associations]
+x-scheme-handler/http=exo-web-browser.desktop
+x-scheme-handler/https=exo-web-browser.desktop
+application/x-shellscript=mousepad.desktop;
+image/png=gimp.desktop;
+image/x-xcursor=gimp.desktop;
+text/plain=mousepad.desktop;
+application/x-theme=mousepad.desktop;panel-desktop-handler.desktop;
+text/x-java=mousepad.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-6KJ0AY.desktop;
+message/rfc822=userapp-Thunderbird-6KJ0AY.desktop;
+application/xml=google-chrome.desktop;
+application/pdf=zathura.desktop;gimp.desktop;
+
+[Default Applications]
+x-scheme-handler/mailto=userapp-Thunderbird-6KJ0AY.desktop
+message/rfc822=userapp-Thunderbird-6KJ0AY.desktop

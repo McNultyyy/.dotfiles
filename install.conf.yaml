@@ -1,0 +1,26 @@
+- defaults:
+    link:
+        relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.dotfiles: ''
+    ~/.vim: .vim
+    ~/.vimrc: .vimrc
+    ~/.i3: .i3
+    ~/.oh-my-zsh: .oh-my-zsh
+    ~/.alias: .alias
+    ~/.gitconfig: .gitconfig
+    ~/.gitmodules: .gitmodules
+    ~/.profile: .profile
+    ~/.ps1: .ps1
+    ~/.xinitrc: .xinitrc
+    ~/.Xresources: .Xresources
+    ~/.zshrc: .zshrc
+    ~/.config/ranger/rc.config: ~/.config/ranger/rc.config
+    ~/.config/htop/htoprc: ~/.confi/htop/htoprc
+    ~/.config/thefuck/settings.py: ~/.confi/thefuck/settings.py
+
+- shell:
+    - [git submodule update --init --recursive, Install submodules]

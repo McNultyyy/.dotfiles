@@ -1,0 +1,9 @@
+#launches rsbot
+function rsbot() {
+	java -jar /opt/rsbot/rsbot.jar
+}
+
+#goes to the location of a binary
+function goto() {
+	cd $(which java | awk 'match($0,/\/[a-z\/]*\//) {print substr($0,RSTART,RLENGTH)}')
+}
